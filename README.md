@@ -1,4 +1,4 @@
-## 4-bit-Adder
+## 4-BIT-ADDER
 ### Entradas:
 8 entradas
 ### Saídas:
