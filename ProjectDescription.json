@@ -1,9 +1,9 @@
 {
-  "ProjectName": "Projeto Kayky",
+  "ProjectName": "4Bit-Adder",
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-09-03T21:09:28.045-03:00",
-  "LastSaveTime": "2025-11-04T19:48:43.494-03:00",
+  "LastSaveTime": "2025-11-18T21:21:13.791-03:00",
   "Prefs_MainPinNamesDisplayMode": 2,
   "Prefs_ChipPinNamesDisplayMode": 2,
   "Prefs_GridDisplayMode": 0,
@@ -21,7 +21,10 @@
     "XNOR",
     "FULL ADDER",
     "HALF ADDER",
-    "4BITADDER"
+    "4BITADDER",
+    "3 AND",
+    "3 OR",
+    "MUX"
   ],
   "StarredList":[
     {
@@ -54,6 +57,18 @@
     },
     {
       "Name":"4BITADDER",
+      "IsCollection":false
+    },
+    {
+      "Name":"3 AND",
+      "IsCollection":false
+    },
+    {
+      "Name":"3 OR",
+      "IsCollection":false
+    },
+    {
+      "Name":"MUX",
       "IsCollection":false
     }
   ],
@@ -89,7 +104,7 @@
       "Name":"MEMORY"
     },
     {
-      "Chips":["BUZZER","FULL ADDER","HALF ADDER"],
+      "Chips":["BUZZER","FULL ADDER","HALF ADDER","4BITADDER"],
       "IsToggledOpen":true,
       "Name":"OTHER"
     },
