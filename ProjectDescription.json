@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-09-03T21:09:28.045-03:00",
-  "LastSaveTime": "2025-11-18T21:21:13.791-03:00",
+  "LastSaveTime": "2025-11-25T21:55:02.539-03:00",
   "Prefs_MainPinNamesDisplayMode": 2,
   "Prefs_ChipPinNamesDisplayMode": 2,
   "Prefs_GridDisplayMode": 0,
@@ -24,7 +24,11 @@
     "4BITADDER",
     "3 AND",
     "3 OR",
-    "MUX"
+    "MUX",
+    "4-OR",
+    "4-BIT-OR",
+    "4-BIT-AND",
+    "DEMUX-3C"
   ],
   "StarredList":[
     {
@@ -69,6 +73,22 @@
     },
     {
       "Name":"MUX",
+      "IsCollection":false
+    },
+    {
+      "Name":"4-OR",
+      "IsCollection":false
+    },
+    {
+      "Name":"4-BIT-OR",
+      "IsCollection":false
+    },
+    {
+      "Name":"4-BIT-AND",
+      "IsCollection":false
+    },
+    {
+      "Name":"DEMUX-3C",
       "IsCollection":false
     }
   ],
