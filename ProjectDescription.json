@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-09-03T21:09:28.045-03:00",
-  "LastSaveTime": "2025-11-25T21:55:02.539-03:00",
+  "LastSaveTime": "2025-12-01T13:24:57.883-03:00",
   "Prefs_MainPinNamesDisplayMode": 2,
   "Prefs_ChipPinNamesDisplayMode": 2,
   "Prefs_GridDisplayMode": 0,
@@ -28,7 +28,17 @@
     "4-OR",
     "4-BIT-OR",
     "4-BIT-AND",
-    "DEMUX-3C"
+    "4-BIT MUX 3C",
+    "4 AND",
+    "HALF-SUB",
+    "FULL-SUB",
+    "DEMUX-4BIT 3C",
+    "MUX-1BIT-3C",
+    "4-BIT-XOR",
+    "AND-4-BIT",
+    "4-BIT-SUB",
+    "ULA",
+    "a"
   ],
   "StarredList":[
     {
@@ -88,7 +98,47 @@
       "IsCollection":false
     },
     {
-      "Name":"DEMUX-3C",
+      "Name":"4-BIT MUX 3C",
+      "IsCollection":false
+    },
+    {
+      "Name":"4 AND",
+      "IsCollection":false
+    },
+    {
+      "Name":"FULL-SUB",
+      "IsCollection":false
+    },
+    {
+      "Name":"HALF-SUB",
+      "IsCollection":false
+    },
+    {
+      "Name":"DEMUX-4BIT 3C",
+      "IsCollection":false
+    },
+    {
+      "Name":"MUX-1BIT-3C",
+      "IsCollection":false
+    },
+    {
+      "Name":"4-BIT-XOR",
+      "IsCollection":false
+    },
+    {
+      "Name":"AND-4-BIT",
+      "IsCollection":false
+    },
+    {
+      "Name":"4-BIT-SUB",
+      "IsCollection":false
+    },
+    {
+      "Name":"ULA",
+      "IsCollection":false
+    },
+    {
+      "Name":"a",
       "IsCollection":false
     }
   ],
@@ -100,7 +150,7 @@
     },
     {
       "Chips":["IN-1","IN-4","IN-8","OUT-1","OUT-4","OUT-8"],
-      "IsToggledOpen":false,
+      "IsToggledOpen":true,
       "Name":"IN/OUT"
     },
     {
@@ -114,6 +164,11 @@
       "Name":"BUS"
     },
     {
+      "Chips":["FULL-SUB","HALF-SUB"],
+      "IsToggledOpen":true,
+      "Name":"SUB"
+    },
+    {
       "Chips":["7-SEGMENT","DOT DISPLAY","RGB DISPLAY","LED"],
       "IsToggledOpen":true,
       "Name":"DISPLAY"
@@ -124,7 +179,7 @@
       "Name":"MEMORY"
     },
     {
-      "Chips":["BUZZER","FULL ADDER","HALF ADDER","4BITADDER"],
+      "Chips":["BUZZER","FULL ADDER","HALF ADDER","4BITADDER","3 AND","3 OR","MUX","4-OR","4-BIT-OR","4-BIT-AND","4-BIT MUX 3C","4 AND"],
       "IsToggledOpen":true,
       "Name":"OTHER"
     },
